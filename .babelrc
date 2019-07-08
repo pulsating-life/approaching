@@ -1,0 +1,33 @@
+﻿{
+  "presets": ['@babel/react'],
+  "ignore":[
+        "jquery.js",
+        "jquery.min.js",
+        "bootstrap.js",
+        "bootstrap.min.js",
+        "antd-with-locales.js",
+        "antd-with-locales.min.js",
+        "react.js",
+        "react.min.js",
+        "react-dom.js",
+        "react-dom.min.js",
+        "react-dom-server.js",
+        "react-dom-server.min.js",
+        "reactstrap.js",
+        "reactstrap.min.js",
+        "reflux.js",
+        "reflux.min.js",
+        "antd.js",
+        "antd.min.js",
+        "echarts.js",
+        "echarts.min.js"
+  ],
+  "compact": false,
+  "plugins": [
+  	"@babel/plugin-proposal-function-bind",
+    ["import", { "libraryName": "antd","style":"css"}], // `style: true`会加载 less 文件 style: 'css'
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose" : true }],
+    ["transform-es2015-modules-commonjs"]
+  ]
+}
