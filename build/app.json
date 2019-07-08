@@ -1,0 +1,26 @@
+{
+	"appList":[
+		{
+			"name": "用户管理",
+			"url": "@/uman.html",
+			"hint": "用户创建、权限分配",
+			"menu": "用户管理",
+			"roleApp":"HR"
+		},
+		{
+			"name": "配置管理",
+			"url": "@/auth.html",
+			"hint": "权限维护、模板管理",
+			"menu": "配置管理",
+			"roleApp": "MA"
+		},
+		{
+			"name": "工程名称,在app.json里替换",
+			"url": "@/reactDemo.html",
+			"hint": "工程名称,在app.json里替换",
+			"menu": "菜单名称，权限检查使用，在app.json里替换",
+			"roleApp": "应用组名称，权限检查使用，在app.json里替换"
+		}
+	]
+}
+

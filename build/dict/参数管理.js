@@ -1,0 +1,2 @@
+var appName='参数管理';
+var dict =[{"indexName":"字典层次结构","hiberarchy":"1","codeData":[{"codeValue":"1","codeDesc":"扁平字典","paraStatus":"1","childNodes":null},{"codeValue":"2","codeDesc":"多级字典","paraStatus":"1","childNodes":null}]},{"indexName":"定时器状态","hiberarchy":"1","codeData":[{"codeValue":"1","codeDesc":"启用","paraStatus":"1","childNodes":null},{"codeValue":"0","codeDesc":"禁止","paraStatus":"1","childNodes":null}]}];
